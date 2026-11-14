@@ -1,26 +1,44 @@
-# Text Reveal
+# Text-Reveal
+
+**Live demo:** https://chandrasen74.github.io/Text-Reveal/  
+**Repository:** https://github.com/Chandrasen74/Text-Reveal
+
+![Screenshot of Text-Reveal](screenshot.png)
 
 ## Overview
-**Text-Reveal** is a HTML, CSS project with a browser-viewable demo (GitHub Pages).
+`Text-Reveal` is a HTML/CSS project.
+- **Primary language:** CSS
+- **Languages detected:** HTML, CSS
+- **Stack/tech:** HTML, CSS
+- **Entry point:** `index.html`
+- **Key files:** `index.html`
 
-- Primary language: **CSS**
-- Detected stack: HTML, CSS
-- HTML title: Text Reveal
+## Language & stack details
+- Languages: HTML, CSS
+- Frameworks/tools/libraries: HTML, CSS
 
-**Live/demo:** https://chandrasen74.github.io/Text-Reveal/
+## How to install & run
+### Prerequisites
+- A modern web browser
+- (Optional) [Python 3](https://www.python.org/) or any static file server for local serving
 
-## Repository contents
-- `README.md`
-- `index.html`
-- `style.css`
-
-## Getting started
+### Run locally
 ```bash
 git clone https://github.com/Chandrasen74/Text-Reveal.git
 cd Text-Reveal
-# open index.html in a browser, or serve locally:
+```
+- **Option 1:** open `index.html` directly in your browser
+- **Option 2:** serve locally (recommended for some JS features):
+```bash
 python -m http.server 8000
+# then open http://localhost:8000
 ```
 
+## Repository structure (top-level/sample)
+- `README.md`
+- `index.html`
+- `screenshot.png`
+- `style.css`
+
 ## Status
-README generated/updated as part of a profile-wide documentation pass based on repository contents.
+Documented with screenshot, language/stack details, and setup instructions as part of a profile-wide README update.
